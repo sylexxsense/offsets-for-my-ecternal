@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-10-15 00:34:26.520967900 UTC
+// 2025-10-15 14:07:33.791448100 UTC
 
 #pragma once
 
@@ -9,8 +9,168 @@ namespace cs2_dumper {
     namespace schemas {
         // Module: client.dll
         // Class count: 30
-        // Enum count: 0
+        // Enum count: 97
         namespace client_dll {
+            // Alignment: 8
+            // Member count: 0
+            enum class CFuncTrackAuto : uint64_t {
+
+            };
+            // Alignment: 8
+            // Member count: 15
+            enum class CEnvExplosion : uint64_t {
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0
+            };
+            // Alignment: 8
+            // Member count: 0
+            enum class CFuncLadderAlias_func_useableladder : uint64_t {
+
+            };
+            // Alignment: 8
+            // Member count: 9
+            enum class CFuncTrackChange : uint64_t {
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0
+            };
+            // Alignment: 8
+            // Member count: 1
+            enum class CMarkupVolumeTagged_Nav : uint64_t {
+                 = 0x0
+            };
+            // Alignment: 4
+            // Member count: 0
+            enum class CHandleDummy : uint32_t {
+
+            };
+            // Alignment: 4
+            // Member count: 0
+            enum class CInfoTarget : uint32_t {
+
+            };
+            // Alignment: 8
+            // Member count: 4
+            enum class CLogicNPCCounterAABB : uint64_t {
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0
+            };
+            // Alignment: 8
+            // Member count: 5
+            enum class CFogVolume : uint64_t {
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0
+            };
+            // Alignment: 8
+            // Member count: 3
+            enum class CGunTarget : uint64_t {
+                 = 0x0,
+                 = 0x0,
+                 = 0x0
+            };
+            // Alignment: 4
+            // Member count: 0
+            enum class CPointClientCommand : uint32_t {
+
+            };
+            // Alignment: 4
+            // Member count: 1
+            enum class CPointGiveAmmo : uint32_t {
+                 = 0x0
+            };
+            // Alignment: 8
+            // Member count: 10
+            enum class CEntityDissolve : uint64_t {
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0
+            };
+            // Alignment: 8
+            // Member count: 4
+            enum class CMarkupVolumeWithRef : uint64_t {
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0
+            };
+            // Alignment: 8
+            // Member count: 0
+            enum class CSpriteAlias_env_glow : uint64_t {
+
+            };
+            // Alignment: 8
+            // Member count: 5
+            enum class CEnvLaser : uint64_t {
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0
+            };
+            // Alignment: 4
+            // Member count: 0
+            enum class CFuncPropRespawnZone : uint32_t {
+
+            };
+            // Alignment: 8
+            // Member count: 14
+            enum class CCSTeam : uint64_t {
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0,
+                 = 0x0
+            };
+            // Alignment: 4
+            // Member count: 1
+            enum class CEnvHudHint : uint32_t {
+                 = 0x0
+            };
+            // Alignment: 4
+            // Member count: 0
+            enum class CInfoTargetServerOnly : uint32_t {
+
+            };
             // Parent: None
             // Field count: 1
             //
@@ -245,7 +405,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_vecCompositeMaterialAssemblyProcedures = 0x1E0; // CUtlVector<CompositeMaterialAssemblyProcedure_t>
                 constexpr std::ptrdiff_t m_vecCompositeMaterials = 0x1F8; // CUtlVector<CompositeMaterial_t>
             }
-            // Parent: None
+            // Parent: 
             // Field count: 0
             namespace CPlayerSprayDecalRenderHelper {
             }
@@ -357,7 +517,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flRenderFxStartTime = 0x20; // GameTime_t
                 constexpr std::ptrdiff_t m_flRenderFxDuration = 0x24; // float32
             }
-            // Parent: None
+            // Parent: 
             // Field count: 43
             namespace CGlobalLightBase {
                 constexpr std::ptrdiff_t m_bSpotLight = 0x10; // bool
